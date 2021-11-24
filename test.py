@@ -11,7 +11,7 @@ class TestEven(unittest.TestCase):
         """
         data = 23
         result = is_even(data)
-        self.assertEqual(result, False)
+        self.assertEqual(result, True)
     def test_2(self):
         """
         Test case to check if given input is even
